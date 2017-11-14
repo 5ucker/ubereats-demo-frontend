@@ -81,6 +81,7 @@ header {
   font-weight: normal;
   line-height: 24px;
   font-size: 13px;
+  border: none;
 
   color: #626262;
   mix-blend-mode: normal;
