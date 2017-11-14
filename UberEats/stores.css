@@ -1,0 +1,112 @@
+body {
+  font-family: "Roboto";
+  color: #1d1d1d;
+  width: 320px;
+}
+
+.row {
+  display: flex;
+  _background: rgba(255, 0, 0, 0.5);
+}
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6 {
+  padding-left: 16px;
+}
+
+header {
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeaderBtn {
+  width: 72px;
+  _height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btns {
+  display: flex;
+  _align-items: center;
+  justify-content: space-between;
+  width: 156px;
+  height: 40px;
+}
+
+#SignIn {
+  background: #e0e0e0;
+}
+
+#SignIn {
+  border: 1px solid #262626;
+  background: #262626;
+  color: #ffffff;
+}
+
+#SearchBar {
+  height: 79px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  border-bottom: 1px solid #757575;
+  padding-left: 8px;
+  padding-right: 8px;
+  _background: rgba(255, 0, 0, 0.1);
+}
+
+#SearchBox {
+  height: 54px;
+  _justify-content: center;
+  align-items: center;
+  _background: rgba(255, 0, 0, 0.1);
+}
+
+#SearchInput {
+  height: 24px;
+  width: 182px;
+  margin-left: 8px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 13px;
+
+  color: #626262;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.test {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  background: rgba(255, 0, 0, 0.1);
+}
+.col1 {
+  flex-basis: 8.3333%;
+}
+.col2 {
+  flex-basis: 16.6666%;
+}
+.col3 {
+  flex-basis: 25%;
+}
+.col4 {
+  flex-basis: 33.3333%;
+}
+.col5 {
+  flex-basis: 41.6666%;
+}
+.col6 {
+  flex-basis: 50%;
+}
