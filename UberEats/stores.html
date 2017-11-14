@@ -1,24 +1,35 @@
 <!doctype html>
 
 <head>
-  <title>Uber eats!</title>
+  <title>Uber eats</title>
 
   <link rel="stylesheet" href="./stores.css" />
 </head>
 
 <body>
-  <header class="row">
-    <img src=".\images\logo.svg" alt="logo" />
-    <div id="btns">
-      <button class="HeaderBtn" id="SignIn">Sign In</button>
-      <button class="HeaderBtn" id="Register">Register</button>
-    </div>
-  </header>
-  <div class="row" id="SearchBar">
-    <div class="row" id="SearchBox">
-      <img src=".\images\search.svg" alt="search" />
-      <input id="SearchInput" type="text" placeholder="Search for restaurant or cuisine" />
+  <div id="TopBox">
+    <header class="row">
+      <img src=".\images\logo.svg" alt="logo" />
+      <div id="btns">
+        <button class="HeaderBtn borders" id="SignIn">Sign In</button>
+        <button class="HeaderBtn borders" id="Register">Register</button>
+      </div>
+    </header>
+    <div class="row" id="SearchBar">
+      <div class="row" id="SearchBox">
+        <img src=".\images\search.svg" alt="search" />
+        <input id="SearchInput" type="text" placeholder="Search for restaurant or cuisine" />
+      </div>
     </div>
   </div>
+  <div class="row col3" id="WhenToBlock">
+    <div class="row" id="WhenBlock">
+      <span id="WhenToCpt">When</span>
+      <button class="HeaderBtn borders" id="WhenBtn">ASAP</button>
+    </div>
+    <div class="row col9" id="ToBlock">
+      <span id="WhenToCpt">To</span>
+      <button class="HeaderBtn borders" id="WhenBtn">ASAP</button>
+    </div>
   </div>
 </body>
